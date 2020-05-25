@@ -52,7 +52,7 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
+   padding-bottom: 30px;
    text-align: center;
 }
 
@@ -315,33 +315,32 @@ ul#nav li.current a { color: #F06000; }
    position: absolute;
    left: 0;
    top: 0;
-
    margin: 0;
    padding-right: 24px;
-  	background: #313131;
+   background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(184,30,30,1) 35%, rgba(209,163,129,1) 79%, rgba(230,197,197,1) 100%, rgba(221,227,176,1) 100%);
    display: inline-block;
   	height: 42px;
    line-height: 42px;
    border-radius: 3px 0 0 3px;
 }
 
-.photoshop {
-  	width: 60%;
-  	-moz-animation: photoshop 2s ease;
-  	-webkit-animation: photoshop 2s ease;
+.react {
+  	width: 40%;
+  	-moz-animation: react 2s ease;
+  	-webkit-animation: react 2s ease;
 }
-.illustrator {
-  	width: 55%;
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
+.javascript {
+  	width: 80%;
+  	-moz-animation: javascript 2s ease;
+  	-webkit-animation: javascript 2s ease;
 }
 .wordpress {
-  	width: 50%;
+  	width: 30%;
   	-moz-animation: wordpress 2s ease;
   	-webkit-animation: wordpress 2s ease;
 }
 .css {
-  	width: 90%;
+  	width: 80%;
   	-moz-animation: css 2s ease;
   	-webkit-animation: css 2s ease;
 }
@@ -356,21 +355,21 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: jquery 2s ease;
 }
 
-@-moz-keyframes photoshop {
+@-moz-keyframes react {
   0%   { width: 0px;  }
-  100% { width: 60%;  }
+  100% { width: 40%;  }
 }
-@-moz-keyframes illustrator {
+@-moz-keyframes javascript {
   0%   { width: 0px;  }
-  100% { width: 55%;  }
+  100% { width: 80%;  }
 }
 @-moz-keyframes wordpress {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 30%;  }
 }
 @-moz-keyframes css {
   0%   { width: 0px;  }
-  100% { width: 90%;  }
+  100% { width: 80%;  }
 }
 @-moz-keyframes html5 {
   0%   { width: 0px;  }
@@ -381,21 +380,21 @@ ul#nav li.current a { color: #F06000; }
   100% { width: 50%;  }
 }
 
-@-webkit-keyframes photoshop {
+@-webkit-keyframes react {
   0%   { width: 0px;  }
-  100% { width: 60%;  }
+  100% { width: 40%;  }
 }
-@-webkit-keyframes illustrator {
+@-webkit-keyframes javascript {
   0%   { width: 0px;  }
-  100% { width: 55%;  }
+  100% { width: 80%;  }
 }
 @-webkit-keyframes wordpress {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 30%;  }
 }
 @-webkit-keyframes css {
   0%   { width: 0px;  }
-  100% { width: 90%;  }
+  100% { width: 80%;  }
 }
 @-webkit-keyframes html5 {
   0%   { width: 0px;  }
